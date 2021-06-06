@@ -43,7 +43,7 @@ let yorum = args.splice(2).join(" ") || "Yorum Belirtilmedi."
 if (args[0] && (args[0].includes('delete') || args[0].includes('sıfırla') ||  args[0].includes('reset') )){
 
 
-    if (!config.helpers.helper.some(role => message.member.roles.cache.get(role)) && (!message.member.hasPermission("ADMINISTRATOR"))) 
+    if (!config.helpers.helperConrols.some(role => message.member.roles.cache.get(role)) && (!message.member.hasPermission("ADMINISTRATOR"))) 
     return message.channel.send(embed.setDescription(`${message.author} Bu komutu kullanabilmek için yeterli yetkin yok!`)).then(tedoa => tedoa.delete({timeout : 5000})).then(message.react(emoji.redemoj))
     
     if (member.roles.cache.has(config.helpers.helper)) {

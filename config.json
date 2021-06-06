@@ -1,0 +1,13 @@
+{
+    "bots":{
+        "footer":"Tedoa was here?",
+        "VoiceChannel":"Botun giriceği sesli kanal",
+        "status":"Tedoa 🖤"
+    },
+
+    "helpers":{
+        "helper":"Helper Rol ID",
+        "helperConrols":["Teşekkür sayısını sıfırlayabilicek yetki ID"]
+
+    }
+}

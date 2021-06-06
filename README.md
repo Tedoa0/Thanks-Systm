@@ -1,2 +1,2 @@
-# Tedoa Thanks systm her bakan bi star atsın la
+# Tedoa Thanks systm hey bakan bi star at la
 [🏡 Serendia squad](https://discord.gg/uG4MVYT63m)

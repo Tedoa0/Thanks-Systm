@@ -7,7 +7,8 @@
 
     "helpers":{
         "helper":"Helper Rol ID",
-        "helperConrols":["Teşekkür sayısını sıfırlayabilicek yetki ID"]
+        "helperConrols":["Teşekkür sayısını sıfırlayabilicek yetki ID"],
+        "helperKanal":"Helper komutun kullanılabiliceği kanal ID"
 
     }
 }

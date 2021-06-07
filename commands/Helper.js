@@ -1,6 +1,7 @@
+const emoji = require('../emoji')
 exports.run = async(client, message, args) => {
 
-message.channel.send(`<@&${config.helpers.helper}> (${message.author})`)
+message.channel.send(`<@&${config.helpers.helper}> (${message.author})`).then(message.react(emoji.onayemoji))
   
     
 

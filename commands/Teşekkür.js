@@ -9,7 +9,7 @@ exports.run = async(client, message, args) => {
      var prefix = ayarlar.prefix
     if (args[0] && (args[0].includes('yardım') || args[0].includes('bilgi') || args[0].includes('help') )){
 
-        message.channel.send(embed.setFooter(config.bots.footer).setDescription(`\`${prefix}teşekkür @Tedoa/ID <yorum> / top / reset /\`
+        message.channel.send(embed.setFooter(config.bots.footer).setDescription(`\`${prefix}teşekkür @Tedoa/ID <yorum> / top / reset\`
         \`${prefix}helper\``))
         message.react(emoji.tedoa)
         return;
